@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         //----------------------------------------------------------------
@@ -206,6 +206,137 @@ public class Main {
         //----------------------------------------------------------------
 
         // IF STATEMENTS
+        /*Scanner scanner = new Scanner(System.in);
+
+        String name;
+        int age;
+        boolean isStudent;
+
+        System.out.print("Please enter your name: ");
+        name = scanner.nextLine();
+
+        System.out.print("Please enter your age: ");
+        age = scanner.nextInt();
+
+        System.out.print("Are you a student? (true/false): ");
+        isStudent = scanner.nextBoolean();
+
+        // GROUP 1
+        if(name.isEmpty()) {
+            System.out.println("You didn't enter a name!");
+        }
+        else{
+            System.out.println("Welcome " + name + "!");
+        }
+
+        // GROUP 2
+        if(age >= 65){
+            System.out.println("You are an senior.");
+        }
+        else if(age >= 18){
+            System.out.println("You are a adult.");
+        }
+        else if(age < 0){
+            System.out.println("You are a fetus!");
+        }
+        else if(age == 0){
+            System.out.println("You are a newborn.");
+        }
+        else{
+            System.out.println("You are a child.");
+        }
+
+        // GROUP 3
+        if(isStudent){
+            System.out.println("You are a student.");
+        }
+        else{
+            System.out.println("You are not a student.");
+        }
+
+        scanner.close();*/
+        //---------------------------------------------------------------------
+
+        // RANDOM NUMBERS CLASS
+        /*Random rand = new Random();
+
+        int number1;
+        int number2;
+        int number3;
+        number1 = rand.nextInt(1,101);
+        number2 = rand.nextInt(1,101);
+        number3 = rand.nextInt(1,101);
+        System.out.println("First number is: " + number1 + "\nSecond number is: " + number2 + "\nThird number is: " + number3);
+
+
+        double number4;
+        number4 = rand.nextDouble();
+        System.out.println(number4);
+
+
+        boolean isHeads;
+        isHeads = rand.nextBoolean();
+        if(isHeads) {
+            System.out.println("HEADS!");
+        }
+        else {
+            System.out.println("TAILS!");
+        }*/
+        //---------------------------------------------------------------------
+
+        /*// MATH CLASS
+        System.out.println(Math.PI);
+        System.out.println(Math.E);
+
+        double result;
+
+        result = Math.pow(2,3);
+        result = Math.abs(-5);
+        result = Math.sqrt(9);
+        result = Math.round(2.7);
+        result = Math.ceil(3.14);
+        result = Math.floor(3.99);
+        result = Math.max(10,20);
+        result = Math.min(10,20);
+
+        System.out.println(result);
+
+        // HYPOTENUSE c = Math.sqrt(a^2 + b^2)
+        Scanner scanner = new Scanner(System.in);
+        double a;
+        double b;
+        double c;
+
+        System.out.print("Enter the length of side a: ");
+        a = scanner.nextDouble();
+
+        System.out.print("Enter the length of side b: ");
+        b = scanner.nextDouble();
+
+        c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
+        System.out.println("The hypotenuse of this triangle is: " + c + "cm");
+
+        // CIRCUMFERENCE = 2 * Math.PI * radius;
+        // AREA = Math.PI * Math.pow(radius,2);
+        // VOLUME = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3)
+
+        double radius;
+        double circumference;
+        double area;
+        double volume;
+
+        System.out.print("Enter the radius: ");
+        radius = scanner.nextDouble();
+
+        circumference = 2 * Math.PI * radius;
+        area = Math.PI * Math.pow(radius,2);
+        volume = (4.0/3.0) * Math.PI * Math.pow(radius,3);
+
+        System.out.printf("The circumference is: %.1fcm\n" , circumference);
+        System.out.printf("The area is: %.1fcm^2\n" , area);
+        System.out.printf("The volume is: %.1fcm^3\n" , volume);
+*/
+        //---------------------------------------------------------------------
 
     }
 }
