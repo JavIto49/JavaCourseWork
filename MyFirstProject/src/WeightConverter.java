@@ -1,4 +1,5 @@
-public class Main {
+public class WeightConverter {
     public static void main(String[] args) {
+
     }
 }
