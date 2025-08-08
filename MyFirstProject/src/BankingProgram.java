@@ -65,7 +65,7 @@ public class BankingProgram {
             return 0;
         }
         else if(amount < 0){
-            System.out.print("Amount can't be negative");
+            System.out.print("Amount cannot be negative");
             return 0;
         }
         else{
