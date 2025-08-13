@@ -28,3 +28,4 @@ bin/
 ### Mac OS ###
 .DS_Store
 /testing.txt
+/src/HangmanWords.txt
